@@ -56,3 +56,40 @@ Docker
 
 Cloud 배포
 
+# Week01 - Manufacturing Production Data Analysis
+
+## 프로젝트 소개
+제조 생산 데이터를 활용하여 생산량, 불량률, 가동률을 분석하는 프로젝트입니다.
+
+## 사용 기술
+- Python
+- Pandas
+- Matplotlib
+
+## 데이터 컬럼
+| 컬럼 | 설명 |
+|------|------|
+| date | 생산 날짜 |
+| machine_id | 설비 번호 |
+| production_count | 생산 수량 |
+| defect_count | 불량 수량 |
+| operating_rate | 설비 가동률 |
+
+## 분석 과정
+1. CSV 데이터 로딩
+2. 불량률 계산
+3. KPI(생산량, 불량률, 가동률) 분석
+4. 생산량 추이 시각화
+5. 불량률 시각화
+6. 가동률 시각화
+
+## 결과
+- 총 생산량: 8,520개
+- 평균 생산량: 1,217.1개
+- 불량률 2% 이상 날짜 탐지
+- 생산량/불량률/가동률 그래프 생성
+
+## 배운 점
+- Pandas를 이용한 제조 데이터 분석
+- 파생변수(defect_rate) 생성
+- Matplotlib 시각화
